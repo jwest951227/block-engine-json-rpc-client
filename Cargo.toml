@@ -1,0 +1,23 @@
+[package]
+name = "solana-relayer-adapter-rust"
+version = "3.1.1"
+edition = "2024"
+authors = ["nakao95911@gmail.com"]
+license = "Apache-2.0"
+description = "solana-relayer-adapter-rust"
+repository = "https://github.com/vvizardev/solana-relayer-adapter-rust"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0.98"
+futures = "0.3.31"
+ping = "0.6.1"
+reqwest = { version = "0.12.15" , features = ["json", "blocking"]}
+serde_json = "1.0.140"
+solana-program = "2.2.1"
+solana-sdk = "2.2.1"
+dotenvy = "0.15.7"
+
+[lib]
+name = "solana_relayer_adapter_rust"
+path = "src/lib.rs"
