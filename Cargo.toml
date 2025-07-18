@@ -2,10 +2,8 @@
 name = "solana-relayer-adapter-rust"
 version = "3.1.1"
 edition = "2024"
-authors = ["nakao95911@gmail.com"]
 license = "Apache-2.0"
 description = "solana-relayer-adapter-rust"
-repository = "https://github.com/vvizardev/solana-relayer-adapter-rust"
 
 [dependencies]
 tokio = { version = "1", features = ["full"] }
